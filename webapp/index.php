@@ -5,8 +5,9 @@ function validateform(){
 var name=document.myform.name.value;  
   
   var format = /[!@#$%^&*()_+\-=\[\]{};':"\\|,.<>\/?]+/;
-  if (name.match(format)) {
-  alert("special character");
+  
+  if (name.match(format) || name == "") {
+  alert("special character or input is null");
   window.location.href = "/index.php";
   return false;  
 }else {  
