@@ -1,4 +1,5 @@
-<html>
+﻿<!DOCTYPE html>
+<html lang="en">
 <body>
 <script>  
 function validateform(){  
@@ -23,5 +24,3 @@ search: <input type="text" name="name"><br/>
 </form>  
 </body>
 </html>
-
- 
