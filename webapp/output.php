@@ -6,7 +6,7 @@
 <h2>Result</h2>
 <?php 
 
-$s = $_POST['name'];
+$s = htmlspecialchars($_POST['name']);
 
 print ("<h1>" . $s . " is the searh term</h1><br>");
 
